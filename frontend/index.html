@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>WScan - Login</title>
+
+    <style>
+      body {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(135deg, #000000, #0d001a);
+        font-family: Arial, sans-serif;
+      }
+
+      .login-card {
+        background: #111;
+        padding: 40px;
+        width: 320px;
+        border-radius: 15px;
+        text-align: center;
+        box-shadow: 0 0 25px #8000ff;
+      }
+
+      .login-card h1 {
+        color: #a020f0;
+        margin-bottom: 30px;
+      }
+
+      .login-card input {
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 15px;
+        border: none;
+        border-radius: 8px;
+        background: #1e1e1e;
+        color: white;
+        outline: none;
+      }
+
+      .login-card input:focus {
+        box-shadow: 0 0 8px #a020f0;
+      }
+
+      .login-card button {
+        width: 100%;
+        padding: 12px;
+        border: none;
+        border-radius: 8px;
+        background: linear-gradient(90deg, #8000ff, #a020f0);
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+
+      .login-card button:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 15px #a020f0;
+      }
+
+      .login-card a {
+        display: block;
+        margin-top: 15px;
+        color: #a020f0;
+        text-decoration: none;
+      }
+
+      .login-card a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="login-card">
+      <h1>WScan</h1>
+
+      <form action="home.html">
+        <input type="text" placeholder="Usuário" required />
+        <input type="password" placeholder="Senha" required />
+        <button type="submit">Entrar</button>
+      </form>
+
+      <a href="#">Criar conta</a>
+    </div>
+  </body>
+</html>

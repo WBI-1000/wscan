@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: radial-gradient(circle at top, #1b0022, #0b0b10 70%);
+  color: #fff;
+  min-height: 100vh;
+}
+
+/* HEADER */
+header {
+  background: rgba(10, 10, 15, 0.95);
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #8a2be2;
+}
+
+header h1 {
+  color: #fff;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #c77dff;
+}
+
+/* CONTEÚDO */
+main {
+  padding: 60px;
+  text-align: center;
+}
+
+main h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.card {
+  margin: 40px auto;
+  background: rgba(20, 20, 30, 0.95);
+  width: 260px;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 0 25px rgba(180, 0, 255, 0.6);
+}
+
+.card h3 {
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+.card button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(135deg, #7f00ff, #b300ff);
+  color: #fff;
+  font-weight: bold;
+}
+
+.card button:hover {
+  box-shadow: 0 0 15px #b300ff;
+}
